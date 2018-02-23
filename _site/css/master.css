@@ -1,0 +1,94 @@
+/* global */
+
+body {
+  color: #000;
+  background-color: #fff;
+}
+
+.body-contents {
+  padding-top: 100px;
+  text-align: left;
+}
+
+.body-contents h1 {
+  padding-bottom: 20px;
+}
+
+.glyphicon-registration-mark {
+  font-size: 8px;
+  vertical-align: 60%;
+}
+
+#body-home {
+  background:
+  linear-gradient(
+    rgba(255,255,255,.3),
+    rgba(255,255,255,.3)
+    ),url(../img/home-background.jpg) no-repeat right bottom fixed;
+}
+
+#primary-nav .navbar-brand {
+    /* background-image: url(../img/logo.jpg); */
+    background-repeat: no-repeat;
+    background-size: 200px 70px;
+    color: #fff;
+    display: block;
+    margin: 5px 10px 10px 0;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 22px;
+}
+
+#primary-nav .navbar-brand span {
+    font-size: 14px;
+    color: #f7617e;
+}
+#primary-nav .navbar-nav {
+    float: right;
+}
+
+#primary-nav ul {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.navbar-inverse {
+  background-color: #000;
+  border-bottom: 3px #f7617e solid;
+}
+
+.page-header {
+  margin: 90px 0 20px;
+}
+
+/* home */
+
+#body-home .body-contents p
+{
+  font-size: 24px;
+  width: 60%;
+}
+
+/* about us */
+
+#about-us-wrap img {
+  width: 100%;
+  margin-top: 60px;
+}
+
+#about-us-body-contents {
+  padding-top: 0px;
+}
+
+
+@media (max-width: 400px)
+{
+  #body-home .body-contents p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #primary-nav .navbar-brand {
+    font-size: 16px;
+  }
+}
+
